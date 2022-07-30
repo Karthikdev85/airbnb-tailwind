@@ -17,7 +17,8 @@ const sectionOneObserver = new IntersectionObserver(function (
       navbar.classList.add("nav");
     } else {
       navbar.classList.add("hidden");
-      // navbar.classList.remove("nav");
+      navbar.classList.remove("nav");
+      navbar.classList.remove("fixed");
     }
   });
 },
