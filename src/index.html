@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <script src="./main.js" type="module"></script>
+  </head>
+  <body class="font-primary">
+    <header class="md:border-b-2">
+      <div
+        class="container relative w-full bg-white z-20 hidden md:flex md:justify-between md:items-center md:py-4"
+      >
+        <div>
+          <a href="#">
+            <img class="block max-w-full" src="./assests/logo.svg" alt="" />
+          </a>
+        </div>
+        <button
+          class="flex pl-5 pr-2 py-1.5 lg:ml-24 items-center border-2 w-[19rem] justify-between rounded-full shadow-sm hover:shadow-md"
+          type="button"
+        >
+          <span class="text-gray-500 font-medium">Start your search</span>
+          <div class="rounded-[50%] bg-primary w-9 py-1.5">
+            <i class="fa-solid fa-magnifying-glass text-white text-sm"></i>
+          </div>
+        </button>
+        <div class="flex justify-between items-center w-[16rem]">
+          <button
+            class="text-gray-500 px-3 py-2 font-semibold hover:bg-gray-100 hover:rounded-full"
+          >
+            Become a host
+          </button>
+          <button class="px-3 py-2 hover:bg-gray-100 hover:rounded-full">
+            <i class="fa-solid fa-globe text-gray-500"></i>
+          </button>
+          <div
+            class="p-1.5 border-2 rounded-full cursor-pointer text-gray-500 flex items-center hover:shadow-md"
+          >
+            <i class="fa-solid fa-bars ml-1 mt-1"></i>
+            <i class="fa-solid fa-circle-user ml-3 text-[1.6rem]"></i>
+          </div>
+        </div>
+      </div>
+      <!-- ************** -->
+      <div class="flex justify-between px-7 py-5 md:hidden">
+        <a href="#" class="flex items-center gap-4">
+          <i class="fa-solid fa-angle-left"></i>
+          <h2 class="text-[0.92rem] font-semibold text-pritext">
+            Homes · Airbnb
+          </h2>
+        </a>
+        <div>
+          <a href=""
+            ><i class="fa-solid fa-arrow-up-from-bracket mr-4 text-gray-600"></i
+          ></a>
+          <a href=""><i class="fa-solid fa-heart text-gray-400"></i></a>
+        </div>
+      </div>
+      <!-- **** -->
+      <div class="hidden border-b-2 w-[100%] top-0 z-10 bg-white" id="navbar">
+        <div class="hidden container md:flex justify-between pt-5">
+          <div
+            class="flex gap-3 mt-3 text-[0.92rem] text-pritext font-semibold"
+          >
+            <a href="" class="hover:border-b-4 border-black">Photos</a>
+            <a href="" class="hover:border-b-4 border-black">Amenities</a>
+            <a href="" class="hover:border-b-4 border-black">Reviews</a>
+            <a href="" class="hover:border-b-4 border-black">Location</a>
+          </div>
+          <div class="flex items-center gap-3 pb-4">
+            <h1 class="text-[1.5rem] font-semibold">
+              ₹1,46,663
+              <span class="text-[1rem] font-normal">night</span>
+            </h1>
+            <button
+              class="py-3 ml-2 bg-primary font-semibold text-white w-[12rem] rounded-lg"
+            >
+              Check availability
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="pb-8">
+        <div class="py-3 container hidden md:block">
+          <h1 class="text-[1.7rem] font-semibold">
+            Lily Beach Resort & Spa, Maldives, With Pool, Al
+          </h1>
+          <div class="flex justify-between py-2">
+            <a class="underline text-[0.92rem]" href="#"> Maldives </a>
+            <div>
+              <a class="underline mr-5 text-[0.92rem]" href="">
+                <i
+                  class="fa-solid fa-arrow-up-from-bracket mr-2 text-gray-600"
+                ></i>
+                Share
+              </a>
+              <a class="underline text-[0.92rem]" href="">
+                <i class="fa-solid fa-heart mr-2 text-gray-400"></i>
+                Save
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- ****** -->
+        <div
+          class="hidden md:grid md:grid-cols-4 md:gap-4 container xl:grid-rows-[210px_210px] md:grid-rows-[200px_200px]"
+        >
+          <div
+            class="col-start-1 col-end-3 row-start-1 row-end-3 before:rounded-l-xl cursor-pointer relative before:absolute before:content-[''] before:inset-0 hover:before:bg-black/20 before:z-10"
+          >
+            <img
+              class="block w-full h-full rounded-l-xl"
+              src="./assests/image1.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="cursor-pointer relative before:absolute before:content-[''] before:inset-0 hover:before:bg-black/20 before:z-10"
+          >
+            <img
+              class="block w-full h-full object-cover"
+              src="./assests/image2.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="cursor-pointer relative before:absolute before:rounded-tr-xl before:content-[''] before:inset-0 hover:before:bg-black/20 before:z-10"
+          >
+            <img
+              class="block w-full h-full object-cover rounded-tr-xl"
+              src="./assests/image3.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="cursor-pointer relative before:absolute before:content-[''] before:inset-0 hover:before:bg-black/20 before:z-10"
+          >
+            <img
+              class="block w-full h-full object-cover"
+              src="./assests/image4.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="cursor-pointer relative before:absolute before:content-[''] before:rounded-br-xl before:inset-0 hover:before:bg-black/20 before:z-10"
+          >
+            <img
+              class="block w-full h-full object-cover rounded-br-xl"
+              src="./assests/image5.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- **** -->
+
+        <!-- ****** -->
+        <div
+          class="h-[450px] md:hidden cursor-pointer relative before:absolute before:content-[''] before:inset-0 hover:before:bg-black/20 before:z-10"
+        >
+          <img
+            class="block w-full h-full object-cover"
+            src="./assests/image1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="container md:hidden">
+          <div class="border-b-2 py-3">
+            <h1 class="text-[1.5rem] font-semibold">
+              Lily Beach Resort & Spa, Maldives, With Pool, Al
+            </h1>
+            <div class="flex justify-between py-2">
+              <a class="underline" href="#"> Maldives </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ****** -->
+
+      <!-- ***** -->
+      <section class="container relative">
+        <div class="md:w-[60%] lg:w-[65%]">
+          <div class="border-b-2 pb-7 relative">
+            <h1 class="text-[1.7rem] font-semibold w-[90%]">
+              Dome hosted by Dorothy
+            </h1>
+            <p class="text-pritext">3 guests·1 bedroom·1 bed·1 bathroom</p>
+            <a href="">
+              <img
+                class="absolute right-0 md:right-3 -top-2 block w-16"
+                src="https://a0.muscache.com/im/pictures/user/0ea3cd74-7ce9-4f59-bf57-334651d552c6.jpg?im_w=240"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="py-10 border-b-2">
+            <div class="flex gap-4 pb-4">
+              <i
+                class="fa-solid fa-water-ladder text-2xl mt-2 text-black/80"
+              ></i>
+              <div>
+                <h2 class="text-[1.1rem] font-semibold text-lg">
+                  Dive right in
+                </h2>
+                <p class="text-pritext text-[0.95rem]">
+                  This is one of the few places in the area with a pool
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <i class="fa-solid fa-star text-2xl mt-2 text-black/80"></i>
+              <div>
+                <h2 class="text-[1.1rem] font-semibold text-lg">
+                  Experienced host
+                </h2>
+                <p class="text-pritext text-[0.95rem]">
+                  Dorothy has 750 reviews for other places
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside
+          class="hidden md:block w-[35%] md:w-[17rem] lg:w-[20rem] xl:w-[22rem] absolute right-5 lg:right-10 top-4"
+          id="form"
+        >
+          <div class="rounded-xl border-2 shadow-lg p-6">
+            <form>
+              <div>
+                <h1 class="text-xl">
+                  ₹1,46,663 <span class="text-[1rem]">night</span>
+                </h1>
+                <div class="mt-4">
+                  <div class="flex border-2 rounded-t-lg border-gray-600">
+                    <div class="w-1/2 p-3 cursor-pointer">
+                      <h3 class="text-[0.7rem]">CHECK-IN</h3>
+                      <h4>Add date</h4>
+                    </div>
+                    <div
+                      class="border-gray-500 border-l-2 w-1/2 p-3 cursor-pointer"
+                    >
+                      <h3 class="text-[0.7rem]">CHECKOUT</h3>
+                      <h4>Add date</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="border-2 border-t-0 border-black rounded-b-lg mb-3 p-3 cursor-pointer relative"
+                  >
+                    <h3 class="text-[0.7rem]">GUESTS</h3>
+                    <h4>1 guest</h4>
+                    <i
+                      class="fa-solid fa-angle-down absolute right-4 top-[40%]"
+                    ></i>
+                  </div>
+                  <button
+                    class="bg-primary rounded-lg w-full text-white py-4 font-semibold"
+                  >
+                    Check availability
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="flex justify-center mt-4">
+            <h2 class="text-gray-600">
+              <i class="fa-solid fa-flag"></i>
+              <a class="underline ml-4" href="">Report this listing</a>
+            </h2>
+          </div>
+        </aside>
+      </section>
+      <!-- ****** -->
+      <section class="container">
+        <div class="pt-4 pb-7 border-b-2">
+          <h1 class="text-[2.2rem] font-bold mb-3">
+            <span class="text-primary">air</span>cover
+          </h1>
+          <p class="mb-3 text-lg text-[0.97rem] md:w-[60%]">
+            Every booking includes free protection from Host cancellations,
+            listing inaccuracies, and other issues like trouble checking in.
+          </p>
+          <a class="underline text-[0.97rem] font-semibold" href="#">
+            Learn more
+          </a>
+        </div>
+
+        <div class="py-9 border-b-2 text-pritext">
+          <h2 class="uppercase text-[0.96rem] mb-1">
+            All inclusive resort award winner
+          </h2>
+          <p class="text-lg lg:w-[60%] text-[0.97rem]">
+            Lily Beach is proud to have once again won the prestigious All
+            Inclusive Resort Award this year.
+          </p>
+        </div>
+
+        <div class="py-9 border-b-2">
+          <h2 class="text-[1.45rem] font-semibold mb-5">Where you'll sleep</h2>
+          <div class="p-6 border-2 rounded-xl w-[19rem]">
+            <i class="fa-solid fa-bed text-[1.3rem] mb-4"></i>
+            <h3 class="font-semibold text-[0.98rem] text-lg">Bedroom</h3>
+            <h4 class="text-pritext text-[0.96rem]">1 double bed</h4>
+          </div>
+        </div>
+      </section>
+      <!-- ******* -->
+      <section class="container">
+        <div class="py-7 border-b-2">
+          <h1 class="text-[1.5rem] font-semibold mb-5">
+            What this place offers
+          </h1>
+          <div class="w-[60%] md:flex flex-wrap gap-3 mb-6">
+            <h2 class="md:w-[45%] mb-3 text-[1.15rem]">
+              <i class="fa-solid fa-wifi"></i
+              ><span class="ml-4 text-pritext">Wifi</span>
+            </h2>
+            <h2 class="md:w-[45%] mb-3 text-[1.1rem]">
+              <i class="fa-solid fa-water-ladder"></i
+              ><span class="ml-4 text-pritext">Pool</span>
+            </h2>
+            <h2 class="md:w-[45%] mb-3 text-[1.1rem]">
+              <i class="fa-solid fa-tv"></i
+              ><span class="ml-4 text-pritext">TV</span>
+            </h2>
+            <h2 class="md:w-[45%] mb-3 text-[1.1rem]">
+              <i class="fa-solid fa-snowflake"></i
+              ><span class="ml-4 text-pritext">Air Conditioning</span>
+            </h2>
+            <h2 class="md:w-[45%] mb-3 text-[1.1rem]">
+              <i class="fa-solid fa-fan"></i
+              ><span class="ml-4 text-pritext">Hair dryer</span>
+            </h2>
+            <h2 class="md:w-[45%] mb-3 text-[1.1rem]">
+              <i class="fa-solid fa-bowl-food"></i
+              ><span class="ml-4 text-pritext">Breakfast</span>
+            </h2>
+            <h2 class="md:w-[50%] mb-3 text-[1.1rem] hidden lg:block">
+              <i class="fa-solid fa-calendar-days"></i
+              ><span class="ml-4 text-pritext">Long-term stays allowed</span>
+            </h2>
+          </div>
+          <button
+            class="py-2.5 px-5 border-2 border-gray-600 rounded-lg text-[1.1rem] hover:bg-gray-100 font-semibold mb-5 w-full md:w-[15rem]"
+          >
+            Show all 15 amenities
+          </button>
+        </div>
+      </section>
+      <!-- ************** mobile map -->
+      <section class="container md:hidden">
+        <div class="py-7 border-b-2">
+          <h1 class="text-[1.5rem] font-semibold mb-4">Where you'll be</h1>
+          <h3 class="mb-5 text-base">Maldives</h3>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.8158607998334!2d73.70927932217954!3d4.445341486437247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b3f913b1a35153f%3A0x6236f911da296bc5!2sMaldives%20Beach%20Hotel!5e0!3m2!1sen!2sin!4v1658978890782!5m2!1sen!2sin"
+              class="w-full h-[250px] rounded-xl md:rounded-md md:h-[500px]"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- ******* -->
+      <section class="container">
+        <div class="border-b-2 py-8">
+          <h1 class="text-[1.56rem] font-semibold">Select check-in date</h1>
+          <h3 class="text-gray-700">Add your travel dates for exact pricing</h3>
+          <div class="flex">
+            <div class="py-6"></div>
+            <div class="flex flex-col">
+              <div class="flex divide-x">
+                <div
+                  class="lg:flex flex-col px-6 pt-5 pb-6 border-b border-gray-100 hidden"
+                >
+                  <div class="flex items-center justify-between">
+                    <button
+                      class="flex items-center justify-center p-2 rounded-xl hover:bg-gray-50"
+                    >
+                      <svg
+                        class="w-6 h-6 text-gray-900 stroke-current"
+                        fill="none"
+                      >
+                        <path
+                          d="M13.25 8.75L9.75 12l3.5 3.25"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                    <div class="text-sm font-semibold">July</div>
+                    <button
+                      class="flex items-center justify-center p-2 rounded-xl hover:bg-gray-50"
+                    >
+                      <svg
+                        class="w-6 h-6 text-gray-900 stroke-current"
+                        fill="none"
+                      >
+                        <path
+                          d="M10.75 8.75l3.5 3.25-3.5 3.25"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="grid grid-cols-7 text-xs text-center text-gray-900"
+                  >
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Mo
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Tu
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      We
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Th
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Fri
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Sa
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Su
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      1
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      2
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      3
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      4
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      5
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      6
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      7
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                      >8</span
+                    >
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg bg-gray-50"
+                    >
+                      9
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      10
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      11
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      12
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      13
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      14
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      15
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      16
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      17
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-black"
+                    >
+                      18
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      19
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      20
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      21
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      22
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      23
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      24
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      25
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      26
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none"
+                    >
+                      27
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-none rounded-br-lg"
+                    >
+                      28
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      1
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      2
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      3
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      4
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      5
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      6
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      7
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col px-6 pt-5 pb-6 border-b border-gray-100"
+                >
+                  <div class="flex items-center justify-between">
+                    <button
+                      class="flex items-center justify-center p-2 rounded-xl hover:bg-gray-50"
+                    >
+                      <svg
+                        class="w-6 h-6 text-gray-900 stroke-current"
+                        fill="none"
+                      >
+                        <path
+                          d="M13.25 8.75L9.75 12l3.5 3.25"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                    <div class="text-sm font-semibold">August</div>
+                    <button
+                      class="flex items-center justify-center p-2 rounded-xl hover:bg-gray-50"
+                    >
+                      <svg
+                        class="w-6 h-6 text-gray-900 stroke-current"
+                        fill="none"
+                      >
+                        <path
+                          d="M10.75 8.75l3.5 3.25-3.5 3.25"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="grid grid-cols-7 text-xs text-center text-gray-900"
+                  >
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Mo
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Tu
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      We
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Th
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Fri
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Sa
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 font-semibold rounded-lg"
+                    >
+                      Su
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none rounded-tl-lg"
+                    >
+                      1
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-no"
+                    >
+                      2
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none"
+                    >
+                      3
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-non"
+                    >
+                      4
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none"
+                    >
+                      5
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none"
+                    >
+                      6
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none"
+                    >
+                      7
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none"
+                    >
+                      8
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none"
+                    >
+                      9
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-none"
+                    >
+                      10
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-black"
+                    >
+                      11
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      12
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      13
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      14
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      15
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      16
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      17
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      18
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      19
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      20
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      21
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      22
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      23
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      24
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      25
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      26
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      27
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      28
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      29
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      30
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 rounded-lg"
+                    >
+                      31
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      1
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      2
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      3
+                    </span>
+                    <span
+                      class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-lg"
+                    >
+                      4
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center justify-between px-6 py-4">
+                <!-- <div class="flex items-center">
+                  <input
+                    type="text"
+                    class="flex items-center w-32 px-4 py-2 text-sm text-gray-900 rounded-lg bg-gray-50 focus:bg-white focus:ring-1 focus:ring-blue-600 focus:outline-none"
+                    placeholder="28 / 07 / 2022"
+                  />
+                  <div class="p-1">
+                    <svg
+                      class="w-6 h-6 text-gray-900 stroke-current"
+                      fill="none"
+                    >
+                      <path
+                        d="M6.738 12.012h10.5m-4.476 4.25l4.5-4.25-4.5-4.25"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    type="text"
+                    class="flex items-center w-32 px-4 py-2 text-sm text-gray-900 rounded-lg bg-gray-50 focus:bg-white focus:ring-1 focus:ring-blue-600 focus:outline-none"
+                    placeholder="11 / 09 / 2022"
+                  />
+                </div> -->
+                <!-- <div
+                  class="flex items-center space-x-2 justify-center md:justify-start"
+                >
+                  <button
+                    class="px-4 py-2 text-sm rounded-lg bg-gray-50 focus:outline-none focus:ring-1 focus:ring-blue-600 hover:bg-gray-100"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    class="px-4 py-2 text-sm text-white bg-blue-600 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-600 hover:bg-blue-700"
+                  >
+                    Set Date
+                  </button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ******** -->
+      <section class="container">
+        <div class="py-6 border-b-2">
+          <h1 class="text-[1.5rem] font-semibold mb-4">No reviews (yet)</h1>
+          <div class="md:flex gap-24 mb-5">
+            <div
+              class="flex flex-row-reverse md:flex-row justify-between md:justify-start gap-5 md:w-[35%] mb-5 md:mb-0"
+            >
+              <i class="fa-solid fa-star text-gray-800 text-[1.6rem] mt-1"></i>
+              <p class="text-gray-600">
+                This host has 750 reviews for other places to stay.
+                <a class="underline text-black/80 font-semibold" href=""
+                  >Show other reviews</a
+                >
+              </p>
+            </div>
+            <div
+              class="flex flex-row-reverse md:flex-row justify-between md:justify-start gap-5 md:w-[35%]"
+            >
+              <i class="fa-solid fa-globe text-gray-800 text-[1.6rem] mt-1"></i>
+              <p class="text-gray-600">
+                We’re here to help your trip go smoothly. Every reservation is
+                covered by
+                <a class="underline text-black/80 font-semibold" href=""
+                  >Airbnb's Guest Refund Policy</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ******** -->
+      <section class="container hidden md:block">
+        <div class="py-7 border-b-2">
+          <h1 class="text-[1.5rem] font-semibold mb-4">Where you'll be</h1>
+          <h3 class="mb-5 text-base">Maldives</h3>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.8158607998334!2d73.70927932217954!3d4.445341486437247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b3f913b1a35153f%3A0x6236f911da296bc5!2sMaldives%20Beach%20Hotel!5e0!3m2!1sen!2sin!4v1658978890782!5m2!1sen!2sin"
+              class="w-full h-[250px] rounded-xl md:rounded-md md:h-[500px]"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- ******* -->
+      <section class="container">
+        <div
+          class="flex justify-between md:justify-start flex-row-reverse md:flex-row md:gap-7 mt-6"
+        >
+          <img
+            class="block w-16"
+            src="https://a0.muscache.com/im/pictures/user/0ea3cd74-7ce9-4f59-bf57-334651d552c6.jpg?im_w=240"
+            alt=""
+          />
+          <div>
+            <h1 class="text-[1.5rem] font-semibold">Hosted by Dorothy</h1>
+            <h3 class="text-base">Joined in October 2015</h3>
+          </div>
+        </div>
+        <div class="py-8 border-b-2">
+          <!-- ** -->
+          <div class="md:flex gap-20">
+            <div class="md:w-[50%]">
+              <div class="md:flex gap-6 text-lg mb-3">
+                <h3 class="mb-3 md:mb-0 text-base">
+                  <i class="fa-solid fa-star"></i>
+                  <span class="ml-2.5">750 Reviews</span>
+                </h3>
+                <h3 class="text-base">
+                  <i class="fa-solid fa-user-check"></i>
+                  <span class="ml-2.5">Identity verified</span>
+                </h3>
+              </div>
+              <p class="tracking-wide mb-4 md:mb-0 text-base xl:w-[88%]">
+                I was born in 1978 in Izmir. After I have graduated Tourism and
+                Hotel Management, I have worked at various departments in
+                tourism sector from house keeping to guest relations. At t…<a
+                  class="underline font-semibold"
+                  href=""
+                  >read more</a
+                >
+              </p>
+            </div>
+            <div class="md:w-[50%]">
+              <ul class="mb-8 text-base">
+                <li class="md:mb-3 mb-2">Languages: English, Türkçe</li>
+                <li class="md:mb-3 mb-2">Response rate: 65%</li>
+                <li class="md:mb-3 mb-2">Response time: within a day</li>
+              </ul>
+              <button
+                class="w-full md:w-[12rem] px-7 py-2 rounded-lg border-black border-2 font-semibold text-base mb-8 hover:bg-gray-100"
+              >
+                Contact host
+              </button>
+              <div class="flex items-center gap-6">
+                <i class="fa-solid fa-file-shield text-xl"></i>
+                <p class="md:w-[55%] text-base">
+                  To protect your payment, never transfer money or communicate
+                  outside of the Airbnb website or app.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ******* -->
+      <section class="container">
+        <div class="py-9">
+          <h1 class="hidden md:block font-semibold text-[1.5rem] mb-5">
+            Things to know
+          </h1>
+          <div class="md:grid grid-cols-3 gap-4">
+            <div class="border-b-2 md:border-b-0 pb-4 md:pb-0">
+              <h2 class="text-[1.5rem] md:text-base font-semibold md:mb-3">
+                House rules
+              </h2>
+              <ul class="text-[1.1rem] mb-3 md:mb-0 text-base">
+                <li class="flex gap-3 items-center">
+                  <i class="hidden md:inline fa-solid fa-clock"></i>
+                  <p>Check-in: After 3:00 pm</p>
+                </li>
+              </ul>
+            </div>
+            <div class="border-b-2 py-4 md:py-0 md:border-b-0">
+              <h2 class="text-[1.5rem] md:text-base font-semibold md:mb-3">
+                Health & safety
+              </h2>
+              <ul class="text-[1.1rem] mb-3 md:mb-0 text-base">
+                <li class="flex gap-3 md:mb-2 items-center">
+                  <i class="hidden md:inline fa-solid fa-shield-virus"></i>
+                  <p>Airbnb's COVID-19 safety practices apply</p>
+                </li>
+                <li class="hidden md:flex md:mb-2 gap-3 items-center">
+                  <i class="hidden md:inline fa-solid fa-biohazard"></i>
+                  <p>Carbon monoxide alarmy</p>
+                </li>
+                <li class="hidden md:flex gap-3 items-center">
+                  <i class="hidden md:inline fa-solid fa-fire"></i>
+                  <p>Smoke alarm</p>
+                </li>
+                <li
+                  class="hidden md:block underline font-semibold mt-5 cursor-pointer"
+                >
+                  Show more<i class="fa-solid fa-angle-right ml-2"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="pt-4 md:pt-0">
+              <h2 class="text-[1.5rem] md:text-base font-semibold md:mb-3">
+                Cancellation policy
+              </h2>
+              <ul class="text-[1.1rem] mb-3 md:mb-0 text-base">
+                <li class="md:mb-2 xl:w-[80%]">
+                  Add your trip dates to get the cancellation details for this
+                  stay.
+                </li>
+              </ul>
+              <a
+                class="hidden text-base md:inline underline font-semibold text-[1.1rem]"
+                href=""
+                >Add dates <i class="fa-solid fa-angle-right ml-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#e7e5e548]">
+      <section class="container">
+        <div class="xl:grid grid-cols-4 py-10 gap-4 xl:border-b-2">
+          <div class="border-b-2 xl:border-b-0 mb-6 xl:mb-0">
+            <h2 class="font-bold text-base">Support</h2>
+            <ul
+              class="mt-3 text-[0.92rem] text-gray-700 md:flex flex-wrap xl:block mb-5 xl:mb-0"
+            >
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Help Center</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">AirCover</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Safety information</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Cancellation options</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Our COVID-19 Response</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href=""
+                  >Supporting people with disabilities</a
+                >
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href=""
+                  >Report a neighbourhood concern</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="border-b-2 xl:border-b-0 mb-6 xl:mb-0">
+            <h2 class="font-bold text-base">Community</h2>
+            <ul
+              class="mt-3 text-[0.92rem] text-gray-700 md:flex flex-wrap xl:block mb-5 xl:mb-0"
+            >
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href=""
+                  >Airbnb.org: disaster relief</a
+                >
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Support Afghan refugees</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Combating discrimination</a>
+              </li>
+            </ul>
+          </div>
+          <div class="border-b-2 xl:border-b-0 mb-6 xl:mb-0">
+            <h2 class="font-bold text-base">Hosting</h2>
+            <ul
+              class="mt-3 text-[0.92rem] text-gray-700 md:flex flex-wrap xl:block mb-5 xl:mb-0"
+            >
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Try hosting</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">AirCover for Hosts</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Explore hosting resources</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Visit our community forum</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">How to host responsibly</a>
+              </li>
+            </ul>
+          </div>
+          <div class="border-b-2 xl:border-b-0">
+            <h2 class="font-bold text-base">Airbnb</h2>
+            <ul
+              class="mt-3 text-[0.92rem] text-gray-700 md:flex flex-wrap xl:block mb-5 xl:mb-0"
+            >
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Newsroom</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Learn about new features</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Letter from our founders</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Careers</a>
+              </li>
+              <li class="block md:w-[33%] xl:w-full mb-3">
+                <a class="hover:underline" href="">Investors</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ***** -->
+      <section class="container xl:py-6 mb-[5rem] md:mb-0">
+        <div
+          class="flex md:items-center flex-col-reverse xl:flex-row xl:justify-between"
+        >
+          <div class="xl:flex xl:w-[40%] mb-3 md:mb-9 xl:mb-0">
+            <h2 class="md:text-center xl:text-left text-[0.92rem]">
+              © 2022 Airbnb, Inc.
+            </h2>
+            <div class="text-[0.92rem]">
+              <a class="md:ml-3 hover:underline" href="">Privacy </a>
+              <a class="ml-2 hover:underline" href="">Terms </a>
+              <a class="ml-2 hover:underline" href="">Sitemap </a>
+              <a class="ml-2 hover:underline" href="">Company details </a>
+            </div>
+          </div>
+          <div
+            class="flex xl:w-[25%] xl:gap-9 mb-2 md:mb-3 xl:mb-0 md:gap-7 gap-6"
+          >
+            <h3 class="text-[0.9rem]">
+              <i class="fa-solid fa-globe"></i> English(IN)
+            </h3>
+            <h3 class="text-[0.9rem]">
+              <i class="fa-solid fa-indian-rupee-sign"></i> INR
+            </h3>
+            <div>
+              <a class="mr-3 text-lg" href=""
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a class="mr-3 text-lg" href=""
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a class="mr-3 text-lg" href=""
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ********* -->
+      <div class="fixed border-t-2 bottom-0 w-full md:hidden bg-white">
+        <div class="flex container items-center justify-between py-4">
+          <h1 class="text-[1.4rem] font-semibold">
+            ₹1,46,663
+            <span class="text-[1rem] font-normal">night</span>
+          </h1>
+          <button
+            class="py-3 bg-primary font-semibold text-white w-[11rem] rounded-lg"
+          >
+            Check availability
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
