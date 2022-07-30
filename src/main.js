@@ -2,7 +2,7 @@ const navbar = document.querySelector("#navbar");
 const sectionForm = document.querySelector("#form");
 
 const sectionOneOptions = {
-  threshold: 0.2,
+  threshold: 0.02,
 };
 
 const sectionOneObserver = new IntersectionObserver(function (
