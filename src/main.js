@@ -13,12 +13,12 @@ const sectionOneObserver = new IntersectionObserver(function (
     console.log(entry);
     if (!entry.isIntersecting) {
       navbar.classList.remove("hidden");
-      navbar.classList.add("fixed");
+      navbar.classList.add("md:fixed");
       navbar.classList.add("nav");
     } else {
       navbar.classList.add("hidden");
       navbar.classList.remove("nav");
-      navbar.classList.remove("fixed");
+      navbar.classList.remove("md:fixed");
     }
   });
 },
@@ -32,7 +32,5 @@ window.addEventListener("resize", function () {
   if (width < 768) {
     // console.log(window.innerWidth);
     navbar.classList.add("hidden");
-  } else {
-    navbar.classList.remove("hidden");
   }
 });
