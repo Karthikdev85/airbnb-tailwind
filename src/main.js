@@ -26,11 +26,13 @@ sectionOneOptions);
 
 sectionOneObserver.observe(sectionForm);
 
-window.addEventListener("resize", function () {
-  const width = window.innerWidth;
+// window.addEventListener("resize", function () {
+//   const width = window.innerWidth;
 
-  if (width < 768) {
-    // console.log(window.innerWidth);
-    navbar.classList.add("hidden");
-  }
-});
+//   if (width < 768) {
+//     // console.log(window.innerWidth);
+//     navbar.classList.add("hidden");
+//   } else {
+//     navbar.classList.remove("hidden");
+//   }
+// });
